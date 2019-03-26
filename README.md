@@ -13,3 +13,5 @@
 5. Run "ng serve" to start the application
 
 6. Navigate to "http://localhost:4200" to view the application
+
+7. Run "ng test" to test the application
