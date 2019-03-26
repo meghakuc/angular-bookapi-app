@@ -37,7 +37,11 @@ export class RestApiService {
 		} 
 		else if(error.status == 500) {
 			// Get server-side error
-			errorMessage = 'isbn ' + ISBN + ' not found';
+			errorMessage = JSON.stringify(error.error.error);
+		}
+		else if(error.status == 0) {
+			// Get server-side error
+			errorMessage = "Please enter a valid ISBN.";
 		}
 		else {
 			// Get server-side error
