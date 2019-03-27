@@ -8,8 +8,8 @@ Create a simple page with 2 boxes/divs,
 		
 		a. First box will be a text box where ISBN can be entered. 
 		b. Second box will show the response in a list , like this : 
-		Title: “sometitile” 
-		Description : “some description ” 
+		  Title: “sometitile” 
+		  Description : “some description ” 
 		but if any field for ex. description is empty don't show it on the page.
 
 Use service to hit the API.
