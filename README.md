@@ -1,29 +1,41 @@
-This project covers following tasks:
+This application covers following tasks:
 
-Here are some API details :
-https://www.booknomads.com/en/dev
- 
-1. Create a simple page with 2  boxes/divs, 
-    a.First box will be a text box where ISBN can be entered. 
-    b. Second box will show the response in a list , like this :
-        Title: “sometitile” 
-        Description : “some description ” but if any field for ex. description is empty don't show it on the page.
-2. Use service to hit the API. 
+Here are some API details : 
 
-# Steps to configure and run the application:
+	https://www.booknomads.com/en/dev
 
-1. Clone the repository on your system:
+Create a simple page with 2 boxes/divs, 
+		
+		a.First box will be a text box where ISBN can be entered. 
+		b. Second box will show the response in a list , like this : 
+		Title: “sometitile” 
+		Description : “some description ” 
+		but if any field for ex. description is empty don't show it on the page.
 
-    git clone https://github.com/meghakuc/angular-bookapi-app.git
+Use service to hit the API.
 
-2. Install Node.js
+<h1>Steps to configure and run the application:</h1>
 
-3. Go to 'angular-bookapi-app' folder from the Node js command prompt.
+Clone the repository on your system:
 
-4. Run 'npm install' to install application dependencies
+	git clone https://github.com/meghakuc/angular-bookapi-app.git
 
-5. Run 'ng serve' to start the application
+Install Node.js
 
-6. Navigate to http://localhost:4200 to view the application
+Go to "angular-bookapi-app" folder from the Node js command prompt.
 
-7. Run 'ng test' to test the application
+Run following command to install application dependencies
+
+	npm install
+
+Run following command to start the application
+
+	ng serve
+
+Navigate to this url to view the application
+
+	http://localhost:4200
+
+Run following command to test the application
+
+	ng test
