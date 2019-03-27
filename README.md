@@ -1,3 +1,15 @@
+This project covers following tasks:
+
+Here are some API details :
+https://www.booknomads.com/en/dev
+ 
+1. Create a simple page with 2  boxes/divs, 
+   a.First box will be a text box where ISBN can be entered. 
+   b. Second box will show the response in a list , like this :
+      Title: “sometitile” 
+      Description : “some description ” but if any field for ex. description is empty don't show it on the page.
+2. Use service to hit the API. 
+
 # Steps to configure and run the application:
 
 1. Clone the repository on your system:
