@@ -6,7 +6,7 @@ Here are some API details :
 
 Create a simple page with 2 boxes/divs, 
 		
-		a.First box will be a text box where ISBN can be entered. 
+		a. First box will be a text box where ISBN can be entered. 
 		b. Second box will show the response in a list , like this : 
 		Title: “sometitile” 
 		Description : “some description ” 
