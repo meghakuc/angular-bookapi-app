@@ -1,4 +1,4 @@
-This application covers following tasks:
+This application covers following tasks: 
 
 Here are some API details : 
 
